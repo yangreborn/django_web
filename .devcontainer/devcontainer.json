@@ -1,0 +1,7 @@
+{
+    "image": "9b81396e7f53",  // 使用官方镜像或自定义镜像
+    "workspaceFolder": "/home/django_web",  // 容器内的工作目录
+    "mounts": [
+      "source=D:/code/django_web/blog_backend/django_web,target=/home/django_web,type=bind"  // 绑定本地目录到容器
+    ]
+}
